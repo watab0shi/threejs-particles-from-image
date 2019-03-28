@@ -1,0 +1,4 @@
+aq-logo.ai
+node_modules/
+
+public/**/*.bundle.js
