@@ -75,8 +75,8 @@ export default class Canvas {
       const a = pixels[i * 4 + 3] / 255;
       if(a < 0.2) continue;
 
-      const x = (i % imgH) * pixelScale;
-      const y = parseInt(i / imgW) * pixelScale;
+      let x = (i % imgH) * pixelScale;
+      let y = parseInt(i / imgW) * pixelScale;
 
       const yy = Math.floor(i / imgW) * .05;
 
